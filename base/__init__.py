@@ -1,6 +1,6 @@
 # Copyright (c) Alibaba, Inc. and its affiliates.
 
-from modelscope.utils.import_utils import is_torch_available
+from .utils.import_utils import is_torch_available
 from .base_head import *  # noqa F403
 from .base_model import *  # noqa F403
 
