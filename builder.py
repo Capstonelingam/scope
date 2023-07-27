@@ -1,11 +1,11 @@
 # Copyright (c) Alibaba, Inc. and its affiliates.
-from modelscope.metainfo import Models
-from modelscope.utils.config import ConfigDict
-from modelscope.utils.constant import Tasks
-from modelscope.utils.import_utils import INDEX_KEY, LazyImportModule
-from modelscope.utils.logger import get_logger
-from modelscope.utils.registry import Registry, build_from_cfg
-from modelscope.utils.task_utils import get_task_by_subtask_name
+from .metainfo import Models
+from .utils.config import ConfigDict
+from .utils.constant import Tasks
+from .utils.import_utils import INDEX_KEY, LazyImportModule
+from .utils.logger import get_logger
+from .utils.registry import Registry, build_from_cfg
+from .utils.task_utils import get_task_by_subtask_name
 
 logger = get_logger()
 
