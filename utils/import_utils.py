@@ -13,12 +13,12 @@ from pathlib import Path
 from types import ModuleType
 from typing import Any
 
-from packaging import version
+#from packaging import version
 
-from modelscope.utils.ast_utils import (INDEX_KEY, MODULE_KEY, REQUIREMENT_KEY,
+from .utils.ast_utils import (INDEX_KEY, MODULE_KEY, REQUIREMENT_KEY,
                                         load_index)
-from modelscope.utils.error import *  # noqa
-from modelscope.utils.logger import get_logger
+from .utils.error import *  # noqa
+from .utils.logger import get_logger
 
 if sys.version_info < (3, 8):
     import importlib_metadata
