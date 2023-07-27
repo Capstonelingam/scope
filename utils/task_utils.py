@@ -1,6 +1,6 @@
-from modelscope.metainfo import TaskModels
-from modelscope.utils import registry
-from modelscope.utils.constant import Tasks
+from .metainfo import TaskModels
+from .utils import registry
+from .utils.constant import Tasks
 
 SUB_TASKS = 'sub_tasks'
 PARENT_TASK = 'parent_task'

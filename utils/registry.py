@@ -4,7 +4,7 @@ import importlib
 import inspect
 from typing import List, Tuple, Union
 
-from modelscope.utils.logger import get_logger
+from .utils.logger import get_logger
 
 TYPE_NAME = 'type'
 default_group = 'default'
