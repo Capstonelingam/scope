@@ -1,5 +1,5 @@
 # Copyright (c) Alibaba, Inc. and its affiliates.
-from modelscope.utils.constant import Fields, Tasks
+from .utils.constant import Fields, Tasks
 
 
 class Models(object):
