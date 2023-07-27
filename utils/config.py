@@ -18,9 +18,9 @@ import addict
 import json
 from yapf.yapflib.yapf_api import FormatCode
 
-from modelscope.utils.constant import ConfigFields, ModelFile
-from modelscope.utils.import_utils import import_modules_from_file
-from modelscope.utils.logger import get_logger
+from .utils.constant import ConfigFields, ModelFile
+from .utils.import_utils import import_modules_from_file
+from .utils.logger import get_logger
 
 logger = get_logger()
 
