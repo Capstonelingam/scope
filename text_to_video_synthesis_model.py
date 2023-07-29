@@ -12,13 +12,13 @@ from einops import rearrange
 from modelscope.metainfo import Models
 from modelscope.models.base import Model
 from modelscope.models.builder import MODELS
-from .autoencoder import \
+from modelscope.models.multi_modal.video_synthesis.autoencoder import \
     AutoencoderKL
-from .diffusion import (
+from modelscope.models.multi_modal.video_synthesis.diffusion import (
     GaussianDiffusion, beta_schedule)
-from .unet_sd import UNetSD
-from .utils.config import Config
-from .utils.constant import ModelFile, Tasks
+from modelscope.models.multi_modal.video_synthesis.unet_sd import UNetSD
+from modelscope.utils.config import Config
+from modelscope.utils.constant import ModelFile, Tasks
 
 __all__ = ['TextToVideoSynthesis']
 
